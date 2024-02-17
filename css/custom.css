@@ -1,0 +1,86 @@
+﻿.addPaddingExperianceEditor {
+	padding-top: 140px;
+}
+.makeUppercase {
+	text-transform: uppercase;
+}
+
+.footer-copyrights .row {
+	display: block !important;
+}
+
+.scWebEditInput.scEnabledChrome[contentEditable="true"] {
+	display: inline;
+}
+
+.pdt48{
+	padding-bottom:48px;
+}
+
+.tblReport {
+	table-layout: auto !important;
+}
+
+.tblReport thead .checkbox-custom input:checked + label:after {
+	top: 9px;
+}
+
+.pdt40{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.a-m-tabs__no-hover {
+	pointer-events: none;
+}
+
+/*Error*/
+.alert-strategy {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.alert-strategy-danger {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+
+/*Lokasi-BCA*/
+.custom-map-control-button {
+	appearance: button;
+	background-color: #fff;
+	border: 0;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	margin: 10px;
+	padding: 0 0.5em;
+	height: 40px;
+	font: 400 18px Roboto, Arial, sans-serif;
+	overflow: hidden;
+}
+
+.custom-map-control-button:hover {
+	background: #ebebeb;
+}
+
+/* Checkbox filter */
+.m-filter__dropdown-modal__content-list.active {
+	padding-bottom: 0; 
+}
+.checkbox-custom.disabled {
+	pointer-events: none;
+}
+.checkbox-custom-table.disabled a {
+	color: #ccc;
+}
+
+.checkbox-custom.disabled label:before {
+	border: solid 0.5px #ccc;
+	background: #eee;
+	pointer-events: none;
+}
